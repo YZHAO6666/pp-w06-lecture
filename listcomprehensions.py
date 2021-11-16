@@ -6,6 +6,7 @@
 
 # %% codecell
 
+# first way
 powers_two = []
 for n in range(12):
     if (2**n >= 100) and (2**n < 1000):
@@ -14,6 +15,7 @@ for n in range(12):
 
 print(powers_two)
 
+# second way (list comprehension)
 powers_two_lc = [2**n for n in range(12) if (2**n >= 100) and (2**n < 1000)]
 
 print(powers_two_lc)

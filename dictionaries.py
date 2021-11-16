@@ -3,7 +3,12 @@
 Walnuts_list = [['carb', 3.7], ['fat', 69.1], ['protein', 15.5]]
 Cereal_list = [['fat', 1.8], ['carb', 70], ['protein', 11]]
 
-Walnuts = {'carb': 3.7, 'fat': 69.1, 'protein': 15.5}
+Walnuts = {'carb': 3.7, 'fat': 69.1, 'protein': 15.5} # key: value
+# print(Walnuts['carb'])
+# print(Walnuts.keys())
+# print(Walnuts.values())
+# Walnuts['fats'] = 68 also work
+
 Cereal = {'fat': 1.8, 'carb': 70, 'protein': 11}
 
 Compare = {'fat': [], 'carb': [], 'protein': []}
